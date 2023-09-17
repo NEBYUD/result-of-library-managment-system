@@ -1,0 +1,18 @@
+
+int main()
+{   float price;
+    int x,num;
+string title,type,author,name,line;
+books book;
+ofstream out;
+ifstream in;
+
+restart:
+
+    cout<<"                         Welcome to our library                   "<<endl
+        <<"           ****"<<endl;
+cout<<" 1)  add book "<<endl
+    <<" 2)  lend book "<<endl
+    <<" 3)  returned book"<<endl
+    <<" 4)  access books information"<<endl;
+    cin>>x;
